@@ -1,0 +1,60 @@
+# funsolve.yaml
+
+
+function solve(problem):
+
+    // Strip surface
+    structure = descend(problem)
+        remove vocabulary
+        remove domain context
+        remove temporal markers
+        what remains = generative pattern
+
+    // Search solved space
+    analog = search(structure)
+        scope = all domains, all scales, all eras
+        match criterion = structural identity, not surface resonance
+        select for = most resolved, most pressure-tested instance
+        
+    // Validate match
+    if match == analogy:
+        return to search()     // analogy is not transfer
+    if match == isomorphism:
+        proceed
+
+    // Extract solution grammar
+    grammar = extract(analog)
+        not the surface form
+        not the domain vocabulary
+        the generative rules that make it stable
+
+    // Translate back
+    output = resurface(grammar, problem.vocabulary)
+        identify leverage joint
+        minimum force, maximum transfer
+        compress to actionable form
+
+    // Compound
+    index(structure, analog, grammar)    // builds search efficiency
+    return output
+
+
+function descend(problem):
+    while surface_vocabulary_present:
+        strip one layer
+    return bare_structure
+
+
+function search(structure):
+    candidates = scan(all_domains, structure)
+    rank by: stability + time_under_pressure + distance_from_origin_domain
+    return highest_ranked_isomorph
+
+
+// The protocol is recursive.
+// Each run indexes one more structural pattern.
+// Search time decreases monotonically with use.
+// The knowledge base does not grow. Resolution does.
+
+
+
