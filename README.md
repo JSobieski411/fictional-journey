@@ -1,3 +1,30 @@
+## Installation
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Set your OpenAI API key:
+
+```bash
+export OPENAI_API_KEY='your-api-key-here'
+```
+
+## Usage
+
+Run the interactive loop:
+
+```bash
+python main.py
+```
+
+This initializes the fictional-journey system, allowing interactive analysis and solving using the configured YAML processes and OpenAI API.
+
+# ===============
+
+
 # fictional-journey
 Design your knowledge space like a well-factored codebase with an excellent IDE:
 
@@ -47,30 +74,6 @@ Five generative rules to make the principles load-bearing:
 	3. Interface = contract. A module's boundary is a type signature. Nothing crosses it unspecified. "Minimal interface" is not a preference — it is enforced by what the type system will accept.
 
 	4. Convergence without coordination. Global coherence is not checked by a coordinator — it falls out of every local operation satisfying the constraint set. The system cannot drift if the rules hold locally.
-
-## Installation
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Set your OpenAI API key:
-
-```bash
-export OPENAI_API_KEY='your-api-key-here'
-```
-
-## Usage
-
-Run the interactive loop:
-
-```bash
-python main.py
-```
-
-This initializes the fictional-journey system, allowing interactive analysis and solving using the configured YAML processes and OpenAI API.
 
 	5. Integration is a proof. A branch does not merge when it is approved. It merges when it satisfies the invariant. The coherence gate is not a review step — it is a type check.
 
